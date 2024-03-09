@@ -8,5 +8,5 @@ urlpatterns = [
     path('',            views.inicio, name='inicio' ),
     path('portafolio/', views.portafolio, name='portafolio' ),
 #    path('contacto/',   views.contacto, name='contacto' ),
-    path("contacto/", include("contacto.urls"))
+    path("contacto/", include("contac.urls"))
 ]
